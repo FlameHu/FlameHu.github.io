@@ -1,0 +1,11 @@
+Mac平台配置adb环境变量步骤：
+1. 进入HOME目录：cd $HOME
+2. 编辑HOME目录下的.bash_profile文件
+（1）如果该文件存在则直接打开编辑：open -e .bash_profile
+（2）如果不存在则先创建：touch .bash_profile，创建成功后再打开编辑
+（3）在.bash_profile文档末尾处添加platform-tools和tools的路径。
+    命令如下：export PATH=${PATH}:platform-tools路径
+            export PATH=${PATH}:tools路径
+ (4)保存并关闭文件.
+3. 更新刚才配置过的环境变量：source .bash_profile
+再次在终端中输入adb命令即可
