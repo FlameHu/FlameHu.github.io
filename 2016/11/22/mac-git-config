@@ -1,0 +1,7 @@
+1. 下载git:官网http://git-scm.com/download/
+2. 安装git后，在命令行输入git --version 测试是否安装成功
+3. 配置git本地信息：用户名和邮箱账号：
+  （1）git config --global user.name "your name"
+  （2）git config --global user.email "your email"
+  
+4. 生成sshkey
